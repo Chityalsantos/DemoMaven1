@@ -21,7 +21,7 @@ public class TC_LoginDDT_002 extends BaseClass{
 		loginPg.setPassword(pwd);
 		logger.info("password is entered.");
 		loginPg.clickOnLoginBtn();
-		
+		//Thread.sleep is used only for practice
 		Thread.sleep(3000);
 		
 		if(isAlertPresent() == true)

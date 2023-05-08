@@ -64,6 +64,7 @@ public class BaseClass {
 	{
 		driver.quit();
 	}
+	//To capture screenshot of failed test cases
 	public void captureScreenshot(WebDriver driver,String filename) throws IOException
 	 {
 		 TakesScreenshot screenshot = ((TakesScreenshot)driver); 

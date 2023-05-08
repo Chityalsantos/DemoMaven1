@@ -11,6 +11,7 @@ import com.Banking.PageObject.LoginObjects;
 public class TC_AddNewCustomer_003 extends BaseClass{
 
 	@Test
+	//Add customer page
 	public void addNewCustomer() throws InterruptedException, IOException
 	{
 		LoginObjects loginPg = new LoginObjects(driver);

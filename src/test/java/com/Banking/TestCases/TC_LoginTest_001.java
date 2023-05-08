@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 
 import com.Banking.PageObject.LoginObjects;
 
+//This is login test script
 public class TC_LoginTest_001 extends BaseClass {
 
 	@Test
